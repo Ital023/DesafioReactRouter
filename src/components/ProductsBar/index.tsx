@@ -6,7 +6,7 @@ export default function ProductsBar() {
   return (
     <div className="drr-products-bar">
       <div className="drr-products-categories">
-        <NavLink to={"/"}>Computadores</NavLink>
+        <NavLink to={"computers"}>Computadores</NavLink>
         <NavLink to={"/"}>Eletrônicos</NavLink>
         <NavLink to={"/"}>Livros</NavLink>
       </div>

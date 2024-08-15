@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./routes/Home";
 import HomeBody from "./routes/Home/HomeBody";
 import Products from "./routes/Home/Products";
+import Computers from "./routes/Home/Products/Computers";
 
 export default function App() {
   return (
@@ -14,7 +15,7 @@ export default function App() {
           <Route path="home" element={<HomeBody />} />
 
           <Route path="products" element={<Products />}>
-            <Route path="computers" element={<Products/>}/>
+            <Route path="computers" element={<Computers/>}/>
           </Route>
         
         </Route>
