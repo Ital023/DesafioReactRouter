@@ -3,6 +3,9 @@ import Home from "./routes/Home";
 import HomeBody from "./routes/Home/HomeBody";
 import Products from "./routes/Home/Products";
 import Computers from "./routes/Home/Products/Computers";
+import Eletronics from "./routes/Home/Products/Eletronics";
+import Books from "./routes/Home/Products/Books";
+import About from "./routes/Home/About";
 
 export default function App() {
   return (
@@ -16,8 +19,11 @@ export default function App() {
 
           <Route path="products" element={<Products />}>
             <Route path="computers" element={<Computers/>}/>
+            <Route path="eletronics" element={<Eletronics/>}/>
+            <Route path="books" element={<Books/>}/>
           </Route>
         
+          <Route path="about" element={<About/>}/>
         </Route>
 
       </Routes>

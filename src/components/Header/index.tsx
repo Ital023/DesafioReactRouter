@@ -8,8 +8,8 @@ export default function Header() {
         <div className="drr-navbar-left">
           <div className="dsc-menu-item">
             <NavLink to={"/"}>Início</NavLink>
-            <NavLink to={"/products"}>Produtos</NavLink>
-            <NavLink to={"/"}>Sobre nós</NavLink>
+            <NavLink to={"products"}>Produtos</NavLink>
+            <NavLink to={"about"}>Sobre nós</NavLink>
           </div>
         </div>
 
