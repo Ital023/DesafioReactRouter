@@ -8,12 +8,17 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />}>
+
           <Route index element={<HomeBody />} />
-          <Route path="/home" element={<HomeBody />} />
-          <Route path="/products" element={<Products />}>
-          
+
+          <Route path="home" element={<HomeBody />} />
+
+          <Route path="products" element={<Products />}>
+            <Route path="computers" element={<Products/>}/>
           </Route>
+        
         </Route>
+
       </Routes>
     </BrowserRouter>
   );

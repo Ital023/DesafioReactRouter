@@ -1,0 +1,14 @@
+.drr-products-bar {
+    background-color: var(--drr-color-bg-tertiary);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.drr-products-categories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
