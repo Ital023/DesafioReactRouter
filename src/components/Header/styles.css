@@ -1,0 +1,14 @@
+.menu-header-item {
+  color: var(--drr-color-font-primary);
+  font-weight: 400;
+}
+
+.menu-header-item:hover {
+    color: var(--drr-color-font-primary);
+}
+
+.menu-header-active {
+  font-weight: 700;
+  color: var(--drr-color-font-primary);
+
+}
