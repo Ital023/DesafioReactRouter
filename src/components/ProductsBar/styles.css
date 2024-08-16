@@ -12,3 +12,13 @@
     align-items: center;
     gap: 20px;
 }
+
+.menu-products-item {
+    color: var(--drr-color-font-secondary);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu-products-active {
+    font-weight: 700;
+}
